@@ -1,0 +1,12 @@
+server:
+  port: 4014
+
+logging:
+  level:
+    root: ERROR
+    org.springframework: INFO
+    com.rs.app: DEBUG
+spring:
+  mvc:
+    async:
+      request-timeout: -1
